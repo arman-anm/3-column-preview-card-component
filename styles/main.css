@@ -21,7 +21,15 @@ body {
   background-color: var(--color-lightGray);
 }
 
+main {
+  display: flex;
+  min-height: 95vh;
+  justify-content: center;
+  align-items: center;
+}
+
 .wrapper-cards {
+  max-width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -29,13 +37,14 @@ body {
   flex-grow: 1;
   flex-basis: auto;
   justify-content: center;
-  align-items: center;
-  min-height: 95vh;
+  align-items: stretch;
+  min-height: 50vh;
   padding: var(--padding-default);
 }
 
 .wrapper-cards>* {
-  padding: calc(var(--padding-default) * 2); /* Applies padding to all the child elements. ie, all cards  */
+  padding: calc(var(--padding-default) * 2);
+  /* Applies padding to all the child elements. ie, all cards  */
 }
 
 .wrapper-cards>:first-child {
@@ -102,6 +111,39 @@ body {
 .card-luxury .button {
   color: var(--color-veryDarkCyan);
 }
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+.attribution a { 
+  color: #3e52a3; 
+}
+
+@media screen and (min-width: 1025px) {
+
+  .wrapper-cards>* {
+    width: 30%;
+  }
+
+  .button {
+    margin-top: calc(var(--margin-default) * 2);
+  }
+
+  .wrapper-cards>:first-child {
+    border-radius: 5px 0 0 5px; 
+    /* Applies border radius to top left and bottom left corner of the first card (pc view)  */
+  }
+  .wrapper-cards>:last-child {
+    border-radius: 0 5px 5px 0; 
+    /* Applies border radius to top right and bottom right corner of the last card (pc view) */
+  }
+
+}
+
+
 
 
 
