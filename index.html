@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <link rel="stylesheet" href="./styles/reset.css"> <!-- Applied CSS reset first so that it would make my main style consistent accross browsers -->
+  
+  <link rel="stylesheet" href="./styles/main.css">
+  
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="wrapper-cards"> <!-- Puting all cards inside a wrapper would make it easy to make them responsive, i.e applying flexbox -->
+      <div class="card-sedan">
+        <img src="./images/icon-sedans.svg" alt="icon of a sedan" class="icon">
+        <h1 class="heading">
+          Sedans
+        </h1>
+        <p class="description">
+          Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city 
+          or on your next road trip.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="button">Learn More</a>
+      </div>
+      <div class="card-suv">
+        <img src="./images/icon-suvs.svg" alt="icon of a suv" class="icon">
+        <h1 class="heading">
+          SUVs
+        </h1>
+        <p class="description">
+          Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+          and off-road adventures.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="button">Learn More</a>
+        </div>
+      <div class="card-luxury">
+        <img src="./images/icon-luxury.svg" alt="icon of a luxury car" class="icon">
+        <h1 class="heading">
+          Luxury
+        </h1>
+        <p class="description">
+          Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury 
+          rental and arrive in style.
+        </p>
+        <a href="#" target="_blank" rel="noopener noreferrer" class="button">Learn More</a>
+      </div>
+    </div>
+  </main>
+</body>
+<footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#"> Abu Naser Muhammad Arman </a> .
+  </div>
+</footer>
+</html>

@@ -1,0 +1,107 @@
+/* External Resources */
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+/* font-family: 'Lexend Deca', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/* font-family: 'Big Shoulders Display', cursive; */
+
+/* Variables */
+:root{
+  font-size: 10px;
+  --color-brightOrange : #e38826;
+  --color-darkCyan : #006970;
+  --color-veryDarkCyan : #004241;
+  --color-transparentWhite : #ffffffbf;
+  --color-lightGray : #f2f2f2;
+  --padding-default : 25px;
+  --margin-default : 25px;
+}
+
+body {
+  background-color: var(--color-lightGray);
+}
+
+.wrapper-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  flex-grow: 1;
+  flex-basis: auto;
+  justify-content: center;
+  align-items: center;
+  min-height: 95vh;
+  padding: var(--padding-default);
+}
+
+.wrapper-cards>* {
+  padding: calc(var(--padding-default) * 2); /* Applies padding to all the child elements. ie, all cards  */
+}
+
+.wrapper-cards>:first-child {
+  border-radius: 5px 5px 0 0; /* Applies border radius to top left and top right corner of the first card (mobile view)  */
+}
+.wrapper-cards>:last-child {
+  border-radius: 0 0 5px 5px; /* Applies border radius to bottom left and bottom right corner of the last card (mobile view) */
+}
+
+.card-sedan {
+  background-color: var(--color-brightOrange);
+}
+
+.card-suv {
+  background-color: var(--color-darkCyan);
+}
+
+.card-luxury {
+  background-color: var(--color-veryDarkCyan);
+}
+
+.icon {
+  max-width: 66px;
+  margin: 0;
+}
+
+.heading {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 3.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-lightGray);
+  margin-top: var(--margin-default);
+}
+
+.description {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--color-transparentWhite);
+  margin-top: var(--margin-default);
+}
+
+.button {
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: var(--color-lightGray);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-decoration: none;  /* Removes all decorations i.e, color, underline from the button text. */
+  border-radius: 50px;
+  margin-top: var(--margin-default);
+}
+
+.card-sedan .button {
+  color: var(--color-brightOrange);
+}
+
+.card-suv .button {
+  color: var(--color-darkCyan);
+}
+
+.card-luxury .button {
+  color: var(--color-veryDarkCyan);
+}
+
+
+
