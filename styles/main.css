@@ -98,6 +98,7 @@ main {
   text-decoration: none;  /* Removes all decorations i.e, color, underline from the button text. */
   border-radius: 50px;
   margin-top: var(--margin-default);
+  border: 2px solid var(--color-lightGray); /* Border added to style the hover effect */
 }
 
 .card-sedan .button {
@@ -110,6 +111,11 @@ main {
 
 .card-luxury .button {
   color: var(--color-veryDarkCyan);
+}
+
+.button:hover {
+  color: var(--color-lightGray);
+  background-color: inherit;
 }
 
 .attribution { 
