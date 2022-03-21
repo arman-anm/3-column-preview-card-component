@@ -67,7 +67,7 @@ main {
 }
 
 .icon {
-  max-width: 66px;
+  max-width: 55px;
   margin: 0;
 }
 
@@ -90,10 +90,10 @@ main {
 
 .button {
   display: inline-block;  /* <a> tags are inline elements, applying inline block property would make it possible to add padding/margin to it  */
-  padding: 15px 30px;
+  padding: 10px 30px;
   background-color: var(--color-lightGray);
   font-family: 'Lexend Deca', sans-serif;
-  font-size: 1.5rem;
+  font-size: 1.35rem;
   font-weight: 400;
   text-decoration: none;  /* Removes all decorations i.e, color, underline from the button text. */
   border-radius: 50px;
@@ -133,9 +133,9 @@ main {
 @media screen and (min-width: 1025px) {
 
   .wrapper-cards>* {
-    width: 30%; /* Sets width of the cards to 30% of the container ( <main> ). Another random number to look visually similar to the design */
+  width: 275px; /*A random number to look visually similar to the design */
   }
-
+  
   .button {
     margin-top: calc(var(--margin-default) * 2);  /* Adds more margin to the top of the button to give it a breathing space  */
   }

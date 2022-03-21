@@ -13,6 +13,7 @@ This is my solution to the [3-column preview card component challenge on Fronten
     - [What I learned](#what-i-learned)
     - [External Resources](#external-resources)
   - [Get Connected](#get-connected)
+  - [Acknowledgement](#acknowledgement)
 
 
 ## Overview
@@ -30,8 +31,8 @@ Users should be able to..
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- [Live site URL](https://arman-anm.github.io/3-column-preview-card-component/)
+- [Solution](https://www.frontendmentor.io/solutions/solution-to-3column-previewcard-component-challenge-using-flexbox-h-YuBCn58)
+- [Live site](https://arman-anm.github.io/3-column-preview-card-component/)
 
 ### Built with
 
@@ -64,3 +65,6 @@ Users should be able to..
 - Instagram - [@arman_anm](https://www.instagram.com/arman_anm/)
 - Twitter - [@arman_anm](https://twitter.com/arman_anm)
 - Gmail - <armaan.anm@gmail.com>
+
+## Acknowledgement
+- Thanks to [Alazar Getachew](https://github.com/AlazarG19) for giving me valuable [feedbacks](https://www.frontendmentor.io/solutions/solution-to-3column-previewcard-component-challenge-using-flexbox-h-YuBCn58#comment-623850e08a1c69047217f8ab) after submitting my solution to Frontend Mentor 🙂
