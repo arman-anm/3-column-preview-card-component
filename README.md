@@ -1,8 +1,8 @@
 # As Salamu Alaikum! 👋 
 
-This is my solution to the <a href="https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-" target="_blank">3-column preview card component challenge</a> on Frontend Mentor. 
+This is my solution to the [3-column preview card component challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)  on Frontend Mentor. 
 
-To give it a peek at the solution's live site please <a href="https://arman-anm.github.io/3-column-preview-card-component/" target="_blank">click here</a>.
+To give it a peek at the solution's live site please [Click here](https://arman-anm.github.io/3-column-preview-card-component/).
 
 ## Table of contents
 
@@ -34,8 +34,8 @@ Users should be able to..
 
 ### Links
 
-- <a href="https://www.frontendmentor.io/solutions/solution-to-3column-previewcard-component-challenge-using-flexbox-h-YuBCn58" target="_blank">Solution</a>
-- <a href="https://arman-anm.github.io/3-column-preview-card-component/" target="_blank">Live site</a>
+- [Solution](https://www.frontendmentor.io/solutions/solution-to-3column-previewcard-component-challenge-using-flexbox-h-YuBCn58)
+- [Live site](https://arman-anm.github.io/3-column-preview-card-component/)
 
 ### Built with
 
@@ -60,7 +60,7 @@ ELEMENT element {
 }
 ```
 
-The first one is <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">Direct child Selector</a> & the second one is <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">Descendant Selector</a>.
+The first one is [Direct child Selector](https://www.w3schools.com/css/css_combinators.asp) & the second one is [Descendant Selector](https://www.w3schools.com/css/css_combinators.asp). 
 
 In one line of my code I've used
 ```css
@@ -80,24 +80,20 @@ Now, should i get amazed about how powerful just one piece of character is? Or g
 
 ### Resources
 
-- <a href="https://fonts.google.com/specimen/Big+Shoulders+Display" target="_blank">Big Shoulders Display Font</a> - The font used in my Heading texts
+- [Big Shoulders Display Font](https://fonts.google.com/specimen/Big+Shoulders+Display) - The font used in my Heading texts
+- [Lexend Deca Font](https://fonts.google.com/specimen/Lexend+Deca) - Used in Paragraph.
 
-- <a href="https://fonts.google.com/specimen/Lexend+Deca" target="_blank">Lexend Deca Font</a> - Used in Paragraph.
-
-- <a href="https://webdevsimplified.com/specificity-cheat-sheet.html" target="_blank">CSS Cheatsheet by Kyle </a> - Helped me understand CSS selectors.
-- <a href="https://www.w3schools.com/css/css_combinators.asp" target="_blank">W3School's CSS Combinator Reference Page</a> - A good guide to CSS combinators & also gives chance to play with them in it's great 'Tryit Editor'. 
+- [CSS Cheatsheet by Kyle](https://webdevsimplified.com/specificity-cheat-sheet.html) - Helped me understand CSS selectors.
+- [W3School's CSS Combinator Reference Page](https://www.w3schools.com/css/css_combinators.asp) - A good guide to CSS combinators & also gives chance to play with them in it's great 'Tryit Editor'. 
 
 ## Acknowledgement
+- Thanks to [Alazar Getachew](https://github.com/AlazarG19) for giving me valuable [feedbacks](https://www.frontendmentor.io/solutions/solution-to-3column-previewcard-component-challenge-using-flexbox-h-YuBCn58#comment-623850e08a1c69047217f8ab) after submitting my solution to Frontend Mentor 🙂
 
-- Thanks to <a href="https://github.com/AlazarG19" target="_blank">Alazar Getachew</a> for giving me valuable <a href="https://www.frontendmentor.io/solutions/solution-to-3column-previewcard-component-challenge-using-flexbox-h-YuBCn58#comment-623850e08a1c69047217f8ab" target="_blank">feedback</a> after submitting my solution to Frontend Mentor 🙂
-  
-- Thanks to <a href="https://www.youtube.com/c/WebDevSimplified" target="_blank">Kyle Cook</a> for creating such a nice <a href="https://webdevsimplified.com/specificity-cheat-sheet.html" target="_blank">handbook</a> on CSS selector 🙂
+- Thanks to [Kyle Cook](https://www.youtube.com/c/WebDevSimplified/videos) for creating such a nice [handbook](https://webdevsimplified.com/specificity-cheat-sheet.html) on CSS selector 🙂
 
 ## Get Connected 
 
-- Facebook - <a href="https://www.facebook.com/armaan.anm" target="_blank">Abu Naser Muhammad Arman</a>
-- Instagram - <a href="https://www.instagram.com/arman_anm" target="_blank">@arman_anm</a>
-
-- Twitter - <a href="https://twitter.com/arman_anm" target="_blank"> @arman_anm</a>
-
-- Gmail - <a href="mailto:armaan.anm@gmail.com">armaan.anm@gmail.com</a>
+- Facebook - [Abu Naser Muhammad Arman](https://www.facebook.com/armaan.anm)
+- Instagram - [@arman_anm](https://www.instagram.com/arman_anm/)
+- Twitter - [@arman_anm](https://twitter.com/arman_anm)
+- Gmail - <armaan.anm@gmail.com>
