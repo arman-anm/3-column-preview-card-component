@@ -1,6 +1,9 @@
 # As Salamu Alaikum! 👋 
 
-This is my solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-).
+This is my solution to the [3-column preview card component challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-)  on Frontend Mentor. 
+
+To give it a peek at the solution's live site please [Click here](https://arman-anm.github.io/3-column-preview-card-component/).
+
 ## Table of contents
 
 - [As Salamu Alaikum! 👋](#as-salamu-alaikum-)
